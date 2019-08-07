@@ -7,11 +7,10 @@ def using_sort(array)
   end
 
 def using_reverse(array)
-# using_include (array = "a,b,c,d")
-# array.reverse #=> ["c", "b", "a"
-# end
+  array.reverse!    
+end
 
-# def using_first (array)
+def using_first (array)
 # (array = "a,b,c,d")
 # arry.first #=> 1
 # end
