@@ -10,18 +10,15 @@ def using_reverse(array)
   array.reverse!    
 end
 
-def using_first (array)
-# (array = "a,b,c,d")
-# arry.first #=> 1
-# end
+def using_first(array)
+  array.first
+end
 
-# def using_last(array)
-# (array = "a,b,c,d")
-# array.last #=> 4
-# end
+def using_last(array)
+array.last
+end 
 
-# def using_size(array)
-# (array = "a,b,c,d")
-# Array[ 1, 'a', /^A/ ]    
+def using_size(array)
+array./^A/ ]    
 # # => [1, "a", /^A/]
 # end
