@@ -15,10 +15,9 @@ def using_first(array)
 end
 
 def using_last(array)
-array.last
+  array.last
 end 
 
 def using_size(array)
-array./^A/ ]    
-# # => [1, "a", /^A/]
-# end
+  array.size()
+end
